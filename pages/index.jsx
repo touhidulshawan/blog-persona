@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
+import Hero from "../components/pages/Hero";
 const Home = () => {
   return (
     <Layout title="Home">
-      <section>
-        <h1>Home page</h1>
-      </section>
+      <div>
+        <Hero />
+      </div>
     </Layout>
   );
 };
