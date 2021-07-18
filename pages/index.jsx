@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Hero from "../components/pages/Hero";
+
 const Home = () => {
   return (
     <Layout title="Home">
